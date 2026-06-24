@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="text-center mt-5">
+
+    <h1>Task Manager</h1>
+
+    <p class="lead">
+        Organize your tasks efficiently
+    </p>
+
+    <a href="{% url 'register' %}" class="btn btn-primary">
+        Register
+    </a>
+
+    <a href="{% url 'login' %}" class="btn btn-outline-primary">
+        Login
+    </a>
+
+</div>
+
+{% endblock %}
